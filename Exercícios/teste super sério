@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+  char palavra[5] = {'p', 'i', 'n', 't', 'o'};
+  int pos;
+
+  for(pos = 0; pos < 5; pos++){
+    printf("%c", palavra[pos])
+};
+
+
+
+  return 0;
+}
